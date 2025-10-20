@@ -351,16 +351,16 @@ def main():
    
         
     # Summary
-    print("\n" + "=" * 50)
+    print("\n" + "=" * 60)
     print("EXPERIMENT SUMMARY Sequence to Token")
-    print("=" * 50)
+    print("=" * 60)
     print(f"Training samples: {args.num_samples}")
     print(f"Training epochs: {args.epochs}")
     print(f"Final loss: {history['loss'][-1]:.4f}")
     print(f"Final accuracy: {history['acc'][-1]:.4f}")
     print(f"Generated samples: {args.num_generated}")
     print(f"Memorization rate: {memorization_ratio * 100:.2f}%")
-    print("=" * 50)
+    print("=" * 60)
     
 
 
