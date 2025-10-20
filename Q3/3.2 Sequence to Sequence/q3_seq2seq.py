@@ -393,7 +393,6 @@ def main():
     #     print(f"  - Try --num_blocks 20 (larger model)")
     
     print("=" * 50)
-#Sequence to Sequence generation
 
 if __name__ == '__main__':
     main()
